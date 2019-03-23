@@ -8,5 +8,5 @@ def index():
 
 
 @app.route('/hello/<name>')
-def index(name):
+def hello(name):
     return "Hello, {0}".format(name)
