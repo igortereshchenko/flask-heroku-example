@@ -72,3 +72,4 @@ node_modules/
 gulp_dist/
 
 .DS_Store
+.idea/
