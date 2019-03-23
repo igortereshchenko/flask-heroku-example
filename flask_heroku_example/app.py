@@ -7,6 +7,6 @@ def index():
     return render_template('index.html', names=['Bob','Boba','Boban'])
 
 
-@app.route('/hello<name>')
+@app.route('/hello/<name>')
 def index(name):
     return "Hello, {0}".format(name)
